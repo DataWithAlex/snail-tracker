@@ -1,0 +1,14 @@
+# Ignore all movie files
+*.mov
+
+# Ignore all output files
+outputs/
+
+# Ignore all model files, assuming these are large or auto-generated
+models/
+
+# Ignore temporary files, logs, and system files
+*.tmp
+*.log
+.DS_Store
+.vscode/
