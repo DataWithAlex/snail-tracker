@@ -49,3 +49,8 @@ temp_roi.png
 /notebooks
 notebooks
 notebooks/
+
+.env
+env
+/env
+env/
