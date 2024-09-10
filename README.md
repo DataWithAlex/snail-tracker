@@ -105,9 +105,13 @@ imageio.mimsave(gif_path, extracted_frames, duration=1, loop=0)
 
 The extracted frames are analyzed using OpenAI's API to identify temperature and humidity values, which are then visualized over time.
 
+![Snail Detection Output](snail_tracking_roi.gif)
+
 ### Plotting the Extracted Data
 
 A line plot shows changes in temperature and humidity over time, enabling correlation analysis with snail behavior.
+
+![Snail Detection Output](snail-graph.png)
 
 ```python
 
@@ -136,6 +140,8 @@ plt.show()
 ### Setting Up the Training for YOLO Model Using Label Studio Annotations
 
 Data labeling is performed using Label Studio, and the dataset is organized for YOLO training. A data.yaml file is created to specify dataset paths and classes.
+
+![alt text](label-studio.png)
 
 ```python
 
