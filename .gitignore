@@ -54,3 +54,8 @@ notebooks/
 env
 /env
 env/
+
+snail-data/
+snail-data
+
+yolov8n.pt
