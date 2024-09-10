@@ -3,6 +3,7 @@
 This is a comprehensive project designed to track the behaviors of garden snails in their habitat using computer vision and machine learning models. The project aims to capture various environmental data points and behavioral patterns of snails, ultimately contributing to a better understanding of their daily activities.
 
 ![alt text](snail_detection_output.gif)
+![alt text](snail_detection_output.gif)
 
 ## Current Developments
 
