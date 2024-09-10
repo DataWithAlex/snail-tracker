@@ -1,0 +1,6 @@
+# data.yaml
+train: /Users/alexsciuto/Library/Mobile Documents/com~apple~CloudDocs/DataWithAlex/snail-tracker/snail-data/train/images  # Path to your training images
+val: /Users/alexsciuto/Library/Mobile Documents/com~apple~CloudDocs/DataWithAlex/snail-tracker/snail-data/val/images  # Path to your validation images
+
+nc: 7  # Number of classes
+names: ['Cucumber', 'Snail', 'Snail Food', 'Water Bowl', 'Hydrometer', 'Lettuce', 'Tunnel']
