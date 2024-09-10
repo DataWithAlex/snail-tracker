@@ -1,14 +1,51 @@
-# Ignore all movie files
-*.mov
+# Ignore all files in the env directory (virtual environment or environment files)
+env/
 
-# Ignore all output files
-outputs/
-
-# Ignore all model files, assuming these are large or auto-generated
+# Ignore all files in the models directory (large model files or checkpoints)
 models/
 
-# Ignore temporary files, logs, and system files
-*.tmp
-*.log
+# Ignore all files in the outputs directory (output files from model runs)
+outputs/
+
+notebooks/
+
+# Ignore raw and processed videos (large files)
+raw-videos/
+processed-videos/
+
+# Ignore all notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore common system files
 .DS_Store
-.vscode/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files from text editors or operating system
+*.swp
+*~
+*.bak
+
+# Ignore compiled files
+*.o
+*.so
+
+# Ignore any logs or temporary files
+*.log
+*.tmp
+*.temp
+*.out
+
+# Ignore specific files in the root
+IMG_3741.mov
+IMG_3741.mp4
+temp_roi.png
+
+/notebooks
+notebooks
+notebooks/
